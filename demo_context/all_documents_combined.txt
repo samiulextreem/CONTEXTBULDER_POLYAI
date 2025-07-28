@@ -1,0 +1,165 @@
+
+================================================================================
+SESSION: 2025-07-29 00:41:10
+FILES PROCESSED: 1
+================================================================================
+
+
+--- START: Untitled document - Google Docs.pdf ---
+
+Page 1 ---
+‭---‬
+‭### Argomenti Giuridici nel Caso *Greenpeace Italy et al. v. ENI S.p.A.*‬
+‭#### 1. Argomenti dei Ricorrenti (Greenpeace Italia, ReCommon e 12 Cittadini Italiani)‬
+‭I ricorrenti hanno avanzato una serie di argomentazioni giuridiche per sostenere che le‬
+‭attività di ENI S.p.A., insieme alla responsabilità dei suoi azionisti di controllo (Ministero‬
+‭dell’Economia e delle Finanze e Cassa Depositi e Prestiti), abbiano contribuito ai danni‬
+‭derivanti dal cambiamento climatico, violando diritti fondamentali protetti dalla Costituzione‬
+‭italiana e da trattati internazionali.‬
+‭- **Violazione dei Diritti Umani**:‬
+‭- **Base giuridica**: I ricorrenti sostengono che le emissioni di gas serra derivanti dalle‬
+‭attività di ENI dal 1970 abbiano contribuito significativamente al riscaldamento globale,‬
+‭causando danni concreti ai diritti fondamentali dei cittadini italiani, come il diritto alla salute,‬
+‭alla sicurezza e alla proprietà, protetti dagli articoli 2, 3 e 32 della Costituzione italiana,‬
+‭nonché dalla Convenzione Europea dei Diritti dell’Uomo (CEDU).‬
+‭- **Danno climatico**: Le attività di ENI, in particolare l’estrazione e la combustione di‬
+‭combustibili fossili, sono accusate di aver causato impatti climatici in Italia, come l’aumento‬
+‭delle temperature, l’innalzamento del livello del mare e eventi meteorologici estremi (es.‬
+‭inondazioni, ondate di calore). Questi impatti ledono i diritti umani dei ricorrenti, inclusi i 12‬
+‭cittadini che hanno subito danni diretti (es. perdita di proprietà o rischi per la salute).‬
+‭- **Precedente internazionale**: I ricorrenti si rifanno al caso *Milieudefensie et al. v. Royal‬
+‭Dutch Shell plc* (Paesi Bassi, 2021), in cui un tribunale ha ordinato a Shell di ridurre le‬
+‭emissioni del 45% entro il 2030, stabilendo che le imprese hanno un dovere di diligenza per‬
+‭mitigare i danni climatici. Questo precedente è invocato per sostenere che ENI ha l’obbligo‬
+‭legale di allineare le sue attività agli obiettivi dell’Accordo di Parigi.‬
+‭- **Strategia di decarbonizzazione inadeguata**:‬
+‭- I ricorrenti affermano che la strategia di decarbonizzazione di ENI non rispetta gli obiettivi‬
+‭dell’Accordo di Parigi (limitare il riscaldamento globale a 1,5°C) né le raccomandazioni‬
+‭scientifiche (es. rapporti IPCC). Le attività di ENI, che continuano a puntare sui combustibili‬
+‭fossili, sono considerate incompatibili con la transizione verso un’economia a basse‬
+‭emissioni di carbonio.‬
+‭- La mancanza di misure efficaci per ridurre le emissioni è vista come una violazione del‬
+‭principio di precauzione e del dovere di diligenza, principi riconosciuti nel diritto ambientale‬
+‭europeo e italiano.‬
+‭- **Responsabilità degli azionisti di controllo**:‬
+‭- Il Ministero dell’Economia e delle Finanze (MEF) e Cassa Depositi e Prestiti (CDP), che‬
+‭detengono complessivamente il 31,8% delle azioni di ENI e un’influenza dominante‬
+‭nell’Assemblea degli Azionisti, sono accusati di non aver esercitato il loro potere per‬
+‭indirizzare ENI verso pratiche sostenibili.‬
+‭- I ricorrenti sostengono che MEF e CDP, in quanto enti pubblici, hanno un obbligo‬
+‭rafforzato di garantire che le imprese partecipate dallo Stato rispettino gli impegni climatici‬
+Page 2 ---
+‭nazionali e internazionali, come quelli derivanti dal Green Deal europeo e dalla normativa‬
+‭italiana sul clima.‬
+‭- **Giurisdizione dei tribunali italiani**:‬
+‭- I ricorrenti hanno argomentato che i tribunali italiani hanno competenza a giudicare il caso‬
+‭poiché:‬
+‭- Il danno climatico (es. impatti su salute, proprietà e ambiente) si manifesta in Italia,‬
+‭conferendo giurisdizione ai sensi del diritto civile italiano (art. 2043 del Codice Civile,‬
+‭responsabilità extracontrattuale).‬
+‭- Le decisioni strategiche di ENI, inclusi i piani di produzione e decarbonizzazione, sono‬
+‭prese dalla sede centrale in Italia, rendendo ENI S.p.A. responsabile diretta.‬
+‭- Le emissioni delle controllate estere di ENI rientrano nella giurisdizione italiana, poiché il‬
+‭controllo è esercitato dalla casa madre italiana, in linea con il principio di “imputabilità” nel‬
+‭diritto societario.‬
+‭- **Richieste di rimedio**:‬
+‭- Dichiarazione di responsabilità solidale di ENI, MEF e CDP per i danni climatici passati e‬
+‭futuri.‬
+‭- Risarcimento dei danni subiti dai ricorrenti (es. danni alla salute, alla proprietà o alla‬
+‭qualità della vita).‬
+‭- Ordine giudiziario che obblighi ENI a rivedere la sua strategia climatica per allinearla agli‬
+‭obiettivi di Parigi e CDP/MEF a esercitare un’influenza responsabile come azionisti.‬
+‭#### 2. Argomenti dei Convenuti (ENI S.p.A., MEF e CDP)‬
+‭I convenuti hanno contestato la validità del ricorso, opponendosi sia alla giurisdizione dei‬
+‭tribunali italiani sia alla fondatezza delle accuse.‬
+‭- **Non giustiziabilità della causa**:‬
+‭- ENI, MEF e CDP hanno sostenuto che le questioni climatiche sono troppo complesse e‬
+‭globali per essere giudicate da un tribunale civile italiano. Hanno argomentato che tali‬
+‭questioni rientrano nella sfera politica e internazionale, non giudiziaria, e che i tribunali‬
+‭italiani non hanno l’autorità per pronunciarsi su politiche climatiche globali.‬
+‭- Hanno invocato il principio di separazione dei poteri, sostenendo che il controllo delle‬
+‭strategie climatiche spetta al legislatore o ad accordi internazionali, non ai giudici.‬
+‭- **Mancanza di giurisdizione sulle controllate estere**:‬
+‭- I convenuti hanno contestato la giurisdizione dei tribunali italiani sulle emissioni delle‬
+‭controllate estere di ENI, sostenendo che tali attività ricadono sotto la giurisdizione dei paesi‬
+‭in cui operano le controllate (es. Nigeria, Mozambico).‬
+‭- Hanno argomentato che imputare le emissioni estere alla casa madre italiana violerebbe i‬
+‭principi di diritto internazionale privato e societario.‬
+‭- **Infondatezza delle accuse**:‬
+‭- ENI ha definito le accuse “infondate” e basate su “slogans fuorvianti”, sostenendo che la‬
+‭sua strategia di decarbonizzazione è in linea con gli standard internazionali e che l’azienda‬
+‭ha già adottato misure per ridurre le emissioni (es. progetti di cattura del carbonio,‬
+‭investimenti in energie rinnovabili).‬
+Page 3 ---
+‭- MEF e CDP hanno negato responsabilità diretta, sostenendo che il loro ruolo come‬
+‭azionisti non implica un obbligo legale di influenzare le strategie operative di ENI oltre i limiti‬
+‭del diritto societario.‬
+‭#### 3. Decisione della Corte di Cassazione (Ordinanza del 21 luglio 2025)‬
+‭La Corte di Cassazione, Sezioni Unite, ha emesso un’ordinanza il 21 luglio 2025,‬
+‭respingendo le eccezioni di giurisdizione sollevate dai convenuti e stabilendo la competenza‬
+‭dei tribunali italiani. Gli argomenti giuridici della Corte includono:‬
+‭- **Competenza giurisdizionale**:‬
+‭- La Corte ha confermato che i tribunali italiani hanno giurisdizione poiché il danno climatico‬
+‭(es. impatti su salute, ambiente e proprietà) si manifesta in Italia, soddisfacendo i requisiti di‬
+‭collegamento territoriale previsti dal diritto civile italiano (art. 20 del Codice di Procedura‬
+‭Civile).‬
+‭- Le decisioni strategiche di ENI, incluse quelle relative alle controllate estere, sono prese‬
+‭dalla sede centrale in Italia, rendendo ENI S.p.A. responsabile diretta per le attività del‬
+‭gruppo.‬
+‭- **Imputabilità delle controllate estere**:‬
+‭- La Corte ha stabilito che le emissioni delle controllate estere di ENI possono essere‬
+‭imputate alla casa madre italiana, poiché ENI esercita un controllo effettivo sulle sue‬
+‭controllate. Questo si basa sul principio di “controllo societario” e sulla giurisprudenza‬
+‭europea che consente di perseguire la casa madre per le azioni delle filiali (cfr. Regolamento‬
+‭Bruxelles I-bis).‬
+‭- **Giustiziabilità delle cause climatiche**:‬
+‭- La Corte ha respinto l’argomentazione di non giustiziabilità, allineandosi alla‬
+‭giurisprudenza europea (es. decisioni della CEDU e il caso *Shell*). Ha riconosciuto che le‬
+‭cause climatiche possono essere giudicate quando coinvolgono violazioni di diritti umani o‬
+‭obblighi legali chiari, come quelli derivanti dalla Costituzione italiana o dal diritto ambientale.‬
+‭- **Rimessione al Tribunale di Roma**:‬
+‭- La Corte non si è pronunciata sul merito delle accuse (es. se ENI sia responsabile per i‬
+‭danni climatici), limitandosi a confermare la competenza giurisdizionale. Il caso è stato‬
+‭rimesso al Tribunale Civile di Roma per l’esame del merito.‬
+‭#### 4. Accesso ai Documenti Giuridici‬
+‭Poiché i documenti completi potrebbero non essere pubblici, ecco come accedere agli‬
+‭argomenti giuridici:‬
+‭- **Ordinanza della Corte di Cassazione (21 luglio 2025)**:‬
+‭- Disponibile sul sito della Corte di Cassazione (www.cortedicassazione.it). Cercare sotto‬
+‭“Sezioni Unite” o “Ordinanza 2025” con parole chiave come “cambiamento climatico” o‬
+‭“ENI”. Potrebbe richiedere registrazione o assistenza legale per l’accesso.‬
+‭- MLex ha riportato che l’ordinanza è allegata al loro comunicato stampa (in italiano), ma‬
+‭l’accesso potrebbe essere limitato agli abbonati.‬
+Page 4 ---
+‭- **Ricorso iniziale dei ricorrenti (maggio 2023)**:‬
+‭- Un sommario esecutivo del ricorso è disponibile su *Climate Case Chart*‬
+‭(climatecasechart.com), tradotto in inglese ma con riferimenti agli argomenti giuridici italiani.‬
+‭Controllare la pagina del caso *Greenpeace Italy et al. v. ENI S.p.A.*.‬
+‭- Greenpeace Italia e ReCommon potrebbero aver pubblicato estratti o sintesi sul loro sito‬
+‭(www.greenpeace.org/italy, www.recommon.org). Cercare comunicati stampa o sezioni‬
+‭dedicate a “La Giusta Causa”.‬
+‭- **Contatti diretti**:‬
+‭- Contattare Greenpeace Italia o ReCommon tramite i loro siti web per richiedere copie dei‬
+‭documenti giuridici. Potrebbero fornire versioni pubbliche o indicare fonti ufficiali.‬
+‭- Il Sabin Center for Climate Change Law (climate.law.columbia.edu) potrebbe offrire‬
+‭assistenza; contattare, ad esempio, Maria Antonia Tigre ([email protected]).‬
+‭- **Banche dati giuridiche**:‬
+‭- Piattaforme come LexisNexis o Westlaw potrebbero includere l’ordinanza o il ricorso, se‬
+‭tradotti. L’accesso richiede un abbonamento, ma biblioteche universitarie o giuridiche‬
+‭possono fornire supporto.‬
+‭- Lexology Pro ha coperto il caso, ma potrebbe non includere i documenti completi.‬
+‭#### 5. Note e Limitazioni‬
+‭- **Lingua**: I documenti ufficiali sono in italiano, e le traduzioni potrebbero non essere‬
+‭disponibili. Gli argomenti sopra riportati riflettono le sintesi disponibili, ma i testi completi‬
+‭potrebbero differire leggermente.‬
+‭- **Accesso ristretto**: I documenti giudiziari italiani, come il ricorso e l’ordinanza, sono‬
+‭spesso riservati alle parti o accessibili solo tramite richiesta formale. Potrebbe essere‬
+‭necessario un avvocato o un ricercatore legale per ottenere copie integrali.‬
+‭- **Caso in corso**: Poiché il caso è ora nella fase di merito presso il Tribunale di Roma,‬
+‭nuovi documenti giuridici potrebbero emergere. Monitorare le fonti sopra indicate per‬
+‭aggiornamenti.‬
+‭Se desideri un approfondimento su un aspetto specifico (es. un argomento giuridico‬
+‭particolare, precedenti citati o dettagli procedurali) o una traduzione di un documento‬
+‭specifico (se disponibile), fammi sapere, e cercherò di assisterti ulteriormente!‬
+
+--- END: Untitled document - Google Docs.pdf ---

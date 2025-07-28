@@ -55,13 +55,13 @@ echo Processing documents...
 echo.
 
 REM Run the text extractor with the same folder for input and output
-python txt_extractor.py "%INPUT_FOLDER%" "%OUTPUT_FOLDER%"
+python main.py "%INPUT_FOLDER%" "%OUTPUT_FOLDER%"
 
 REM Check if Python command was successful
 if %ERRORLEVEL% neq 0 (
     echo.
     echo ERROR: Text extraction failed
-    echo Make sure Python is installed and txt_extractor.py is working
+    echo Make sure Python is installed and main.py is working
     echo.
     pause
     exit /b 1
