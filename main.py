@@ -23,6 +23,10 @@ from typing import List, Dict, Any
 import pypdf
 import fitz  # PyMuPDF
 
+# Configure logging
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+logger = logging.getLogger(__name__)
+
 # OCR-related imports
 try:
     import pytesseract
@@ -35,10 +39,6 @@ except ImportError:
     logger.warning("OCR libraries (pytesseract, pdf2image) not found. OCR functionality will be disabled.")
     logger.warning("To enable OCR, install the required libraries and Tesseract OCR engine.")
 
-# Configure logging
-logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
-logger = logging.getLogger(__name__)
-
 # --- Core Classes and Functions ---
 
 class PDFTextExtractor:
@@ -47,17 +47,16 @@ class PDFTextExtractor:
     """
     
     def extract_text_from_pdf(self, pdf_path: str) -> str:
+        global OCR_AVAILABLE
         """
         Extract text content from a PDF file using multiple methods.
         
         Args:
             pdf_path: Path to the PDF file
-            
         Returns:
             Extracted text content
         """
         text = ""
-        
         # Method 1: Try PyMuPDF first (often better for text-based PDFs)
         try:
             doc = fitz.open(pdf_path)
@@ -67,14 +66,12 @@ class PDFTextExtractor:
                     text += f"\n\n--- Page {page_num + 1} ---\n\n"
                     text += page_text
             doc.close()
-            
             if text.strip():
                 logger.info(f"Successfully extracted text using PyMuPDF from {pdf_path}")
                 return text.strip()
-                
         except Exception as e:
             logger.warning(f"PyMuPDF extraction failed for {pdf_path}: {e}")
-        
+
         # Method 2: Try pypdf as a secondary fallback for text-based PDFs
         try:
             with open(pdf_path, 'rb') as file:
@@ -84,11 +81,9 @@ class PDFTextExtractor:
                     if page_text and page_text.strip():
                         text += f"\n\n--- Page {page_num + 1} ---\n\n"
                         text += page_text
-                
                 if text.strip():
                     logger.info(f"Successfully extracted text using pypdf from {pdf_path}")
                     return text.strip()
-                    
         except Exception as e:
             logger.warning(f"pypdf extraction failed for {pdf_path}: {e}")
 
@@ -106,23 +101,79 @@ class PDFTextExtractor:
                         logger.error("Tesseract is not installed or not in your PATH.")
                         logger.error("OCR functionality will not work until Tesseract is installed.")
                         # Disable OCR for the rest of the run
-                        global OCR_AVAILABLE
                         OCR_AVAILABLE = False
                         return "" # Return empty string as we can't proceed
                     except Exception as ocr_error:
                         logger.error(f"OCR failed on page {i+1} for {pdf_path}: {ocr_error}")
-                
                 if ocr_text.strip():
                     logger.info(f"Successfully extracted text using OCR from {pdf_path}")
                     return ocr_text.strip()
-
             except Exception as e:
                 logger.error(f"Failed to perform OCR on {pdf_path}: {e}")
-        
+
         # If all methods failed
         if not text.strip():
             logger.error(f"All text extraction methods failed for {pdf_path}")
+        return text.strip()
         
+        # Method 1: Try PyMuPDF first (often better for text-based PDFs)
+        try:
+            doc = fitz.open(pdf_path)
+            for page_num, page in enumerate(doc):
+                page_text = page.get_text("text")
+                if page_text and page_text.strip():
+                    text += f"\n\n--- Page {page_num + 1} ---\n\n"
+                    text += page_text
+            doc.close()
+            if text.strip():
+                logger.info(f"Successfully extracted text using PyMuPDF from {pdf_path}")
+                return text.strip()
+        except Exception as e:
+            logger.warning(f"PyMuPDF extraction failed for {pdf_path}: {e}")
+
+        # Method 2: Try pypdf as a secondary fallback for text-based PDFs
+        try:
+            with open(pdf_path, 'rb') as file:
+                pdf_reader = pypdf.PdfReader(file)
+                for page_num, page in enumerate(pdf_reader.pages):
+                    page_text = page.extract_text()
+                    if page_text and page_text.strip():
+                        text += f"\n\n--- Page {page_num + 1} ---\n\n"
+                        text += page_text
+                if text.strip():
+                    logger.info(f"Successfully extracted text using pypdf from {pdf_path}")
+                    return text.strip()
+        except Exception as e:
+            logger.warning(f"pypdf extraction failed for {pdf_path}: {e}")
+
+        # Method 3: OCR Fallback for scanned/image-based PDFs
+        if not text.strip() and OCR_AVAILABLE:
+            logger.info(f"No text extracted with standard methods. Attempting OCR for {pdf_path}...")
+            try:
+                images = convert_from_path(pdf_path, dpi=300)
+                ocr_text = ""
+                for i, image in enumerate(images):
+                    ocr_text += f"\n\n--- Page {i + 1} (OCR) ---\n\n"
+                    try:
+                        ocr_text += pytesseract.image_to_string(image, lang='eng')
+                    except pytesseract.TesseractNotFoundError:
+                        logger.error("Tesseract is not installed or not in your PATH.")
+                        logger.error("OCR functionality will not work until Tesseract is installed.")
+                        # Disable OCR for the rest of the run
+                        OCR_AVAILABLE = False
+                        return "" # Return empty string as we can't proceed
+                    except Exception as ocr_error:
+                        logger.error(f"OCR failed on page {i+1} for {pdf_path}: {ocr_error}")
+                if ocr_text.strip():
+                    logger.info(f"Successfully extracted text using OCR from {pdf_path}")
+                    return ocr_text.strip()
+            except Exception as e:
+                logger.error(f"Failed to perform OCR on {pdf_path}: {e}")
+
+        # If all methods failed
+        if not text.strip():
+            logger.error(f"All text extraction methods failed for {pdf_path}")
+        return text.strip()
         return text.strip()
 
 # --- Core Functions from txt_extractor.py ---
